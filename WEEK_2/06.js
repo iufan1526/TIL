@@ -7,12 +7,34 @@
 const myMap = new Map();
 
 // 저장
-myMap.set('', '');
+myMap.set('one', 1);
+myMap.set('two', 2);
+myMap.set('three', 3);
 
 // 불러오기
 myMap.get('');
 
 
 // 반복을 위한 api가 있다. keys, values, entries
+
+
+console.log(myMap.keys());
+for (const key of myMap.keys()) {
+    console.log(key);
+}
+
+console.log(myMap.values());
+for (const value of myMap.values()) {
+    console.log(value);
+}
+
+console.log(myMap.entries());
+for (const value of myMap.entries()) {
+    console.log(value);
+}
+
+console.log(myMap.size);
+console.log(myMap.has("two")); // key기반 겂색
+
 
 
