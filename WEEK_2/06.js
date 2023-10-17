@@ -33,7 +33,7 @@ for (const value of myMap.entries()) {
     console.log(value);
 }
 
-console.log(myMap.size);
+console.log(myMap.entries());
 console.log(myMap.has("two")); // key기반 겂색
 
 

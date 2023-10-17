@@ -13,7 +13,7 @@ mySet.add('value3');
 mySet.add('value4');
 mySet.add('value5');
 
-
+mySet.values
 console.log(mySet.size);
 console.log(mySet.has('value1'));
 
